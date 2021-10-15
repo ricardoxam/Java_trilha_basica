@@ -34,6 +34,7 @@ public class Pessoa{
 
     public void imprimirDados(){
         System.out.println("O nome da pessoa é: " +getNome());
+        System.out.println("O nome da pessoa é: " +getNome());
         System.out.println("A altura da pessoa é: " +getAltura());
         System.out.println("A idade da pessoa é: " +calcularIdade());
     }
@@ -45,6 +46,8 @@ public class Pessoa{
         return (anoAtual - ano);
 
     }
+
+    
 
 
     
