@@ -18,9 +18,9 @@ public class Principal {
             for(int i=0; i < c.getQuantidade(); i++){
                 Pluviometro p = new Pluviometro();
                 System.out.println("Informe um nome identificador para o pluviometro");
-                p.setIdentificador(sc.nextLine());
+                p.setIdentificador(Selecao.leString(sc.nextLine()));
                 System.out.println("Informe a capacidade do "+ i + "º pluviometro");
-                p.setCapacidade(sc.nextInt());
+                p.setCapacidade(Selecao.leNumero(sc.nextInt()));
 
                 sc.nextLine();
                 c.setPluviometro(p);
